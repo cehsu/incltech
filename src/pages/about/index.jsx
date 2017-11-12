@@ -175,28 +175,31 @@ class Profile extends React.Component {
             </div>
           </div>
         </section>
-
         <section id="community" className="bg-primary text-white text-center">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-3 text-center">
-                <h2 className="section-heading">Community</h2>
+                <h2 className="section-heading">Strategy & Staffing</h2>
+                <p>Leverage proven forms of engagement that emphasize your team's strengths</p>
               </div>
               <div className="col-md-9 text-left">
                 <li>
                   <a className="text-white" href="https://github.com/jaxx2104/gatsby-starter-bootstrap">
-                    Affinity groups
+                    Self-managed Teams
                   </a>
+                  <p>Support the growth of a permanent team of volunteers by remunerating time spent on D&I-promoting activites. <a href="http://projectinclude.org/implementing_culture?size=75-#use-a-team-to-build-culture">Learn more >> </a></p>
                 </li>
                 <li>
                   <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
-                    Code of Conduct
+                    Diversity Task Forces
                   </a>
+                  <p>Regularly convene leadership and members of under-represented groups to assess progress and identify opportunities for innovation and new initiatives. <a href="https://hbr.org/2016/07/why-diversity-programs-fail">Learn more >> </a></p>
                 </li>
                 <li>
                   <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
-                    Mentorship
+                    Diversity Manager
                   </a>
+                  <p>Hire a D&I lead to effectively marshall your dedicated D&I human and financial resources. <a href="https://www.techrepublic.com/article/does-your-company-need-a-chief-diversity-officer/">Learn more >> </a></p>
                 </li>
               </div>
             </div>
@@ -232,6 +235,32 @@ class Profile extends React.Component {
                     Feedback
                   </a>
                   <p>Provide applicants with an opportunity to provide anonymous feedback on their experience. <a href="#">Learn more >> </a></p>
+                </li>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="community" className="bg-primary text-white text-center">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-3 text-center">
+                <h2 className="section-heading">Community</h2>
+              </div>
+              <div className="col-md-9 text-left">
+                <li>
+                  <a className="text-white" href="https://github.com/jaxx2104/gatsby-starter-bootstrap">
+                    Affinity groups
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
+                    Code of Conduct
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
+                    Mentorship
+                  </a>
                 </li>
               </div>
             </div>
