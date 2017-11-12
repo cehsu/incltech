@@ -15,13 +15,12 @@ class Profile extends React.Component {
         <section className="text-center">
           <div className="container">
             <img
-              src={pathPrefix + '/img/profile.jpg'}
-              alt="jaxx2104"
+              src={pathPrefix + '/img/simple-logo.png'}
+              alt="inlclusion.tech logo"
               className="rounded-circle mx-auto d-block"
               width="120px"
             />
-            <h1>jaxx2104</h1>
-            <p className="lead text-muted">コーラとバグが好き</p>
+            <h1>inclusion.tech</h1>
             <div>
               <a
                 ref="twButton"
@@ -29,7 +28,7 @@ class Profile extends React.Component {
                 className="twitter-follow-button"
                 data-show-count="false"
               >
-                Follow @jaxx2104
+                Contact us
               </a>
             </div>
           </div>
@@ -39,7 +38,7 @@ class Profile extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <h2 className="section-heading">SKIL</h2>
+                <h2 className="section-heading">FOLLOW</h2>
                 <hr className="border-white" />
               </div>
             </div>
@@ -160,7 +159,7 @@ class Profile extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <h2 className="section-heading">Features</h2>
+                <h2 className="section-heading">About</h2>
                 <hr className="border-primary" />
               </div>
             </div>
@@ -169,79 +168,65 @@ class Profile extends React.Component {
             <div className="row justify-content-md-center">
               <div className="col-lg-8">
                 <p>
-                  学生時代のバイトでWEBエンジニアになりました。<br />
-                  主にフロントエンドを仕事にしていますが、バックエンドの開発もやってます。
-                  趣味はNode.jsを使ったIoTとアプリの開発です。
+                  Inclusion and diversity in tech are broadly embraced.<br />
+                  How to realize these goals is still being pioneered. Below we share strategies and resources for empowering your company to navigate this transformation.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        <section
-          className="bg-primary text-white text-center color-inverse"
-          id="concept"
-        >
+        <section id="community" className="bg-primary text-white text-center">
           <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <h2 className="section-heading">WORKS</h2>
-                <hr className="border-white" />
+            <div className="row align-items-center">
+              <div className="col-md-3 text-center">
+                <h2 className="section-heading">Community</h2>
               </div>
-            </div>
-          </div>
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-md-6 wow slideInLeft"
-                data-wow-duration="1.0s"
-              >
-                <img
-                  src={pathPrefix + '/img/work1.png'}
-                  alt="work1"
-                  className="rounded-circle mx-auto"
-                />
-                <p>Yomu</p>
-              </div>
-              <div
-                className="col-md-6 wow slideInRight"
-                data-wow-duration="1.0s"
-              >
-                <img
-                  src={pathPrefix + '/img/work2.png'}
-                  alt="work2"
-                  className="rounded-circle mx-auto"
-                />
-                <p>Detector</p>
+              <div className="col-md-9 text-left">
+                <li>
+                  <a className="text-white" href="https://github.com/jaxx2104/gatsby-starter-bootstrap">
+                    Affinity groups
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
+                    Code of Conduct
+                  </a>
+                </li>
               </div>
             </div>
           </div>
         </section>
-
-        <section id="repos">
+        <section id="hiring">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6 text-center">
-                <h2 className="section-heading">Repositories</h2>
+              <div className="col-md-3 text-center">
+                <h2 className="section-heading">Hiring</h2>
+                <p>One of the best ways to prevent bias from sneaking into your hiring process is to be intentional about your process, and to train those conducting interviews. Here we provide some key points to get you started.</p>
               </div>
-              <div className="col-md-6 text-left">
+              <div className="col-md-9 text-left">
                 <li>
                   <a href="https://github.com/jaxx2104/gatsby-starter-bootstrap">
-                    gatstrap
+                    Recruiting
                   </a>
+                  <p>Expand your <a href="http://techcrunch.com/2015/01/24/prioritizing-diversity-in-2015/">sourcing strategy</a> and <a href="http://recode.net/2015/04/20/textio-spell-checks-for-gender-bias/">write better job descriptions</a>.</p>
                 </li>
                 <li>
                   <a href="https://github.com/jaxx2104/gulp-sample">
-                    gulp-sample
+                    Coding Challenges
                   </a>
+                  <p>Emphasize skills with practical implications for day-to-day work such as learning new technologies over areas with less practical relevance such as algorithms and data structures. <a href="https://corner.squareup.com/2013/09/pair-programming-interviews.html">Learn more >></a></p>
                 </li>
                 <li>
-                  <a href="https://github.com/jaxx2104/irm">irm</a>
+                  <a href="https://github.com/jaxx2104/irm">Interviewing</a>
+                  <p>Let candidates know what to expect and how to prepare, this will help to level the playing field for candidates from underrepresented backgrounds who may not already be familiar with the process or have been prepared for it by schools or friends. <a href="https://stripe.com/jobs/engineering-onsite.pdf">Learn more >> </a></p>
+                  <p>Rather than high-pressure, artificial tests which often involve using a whiteboard under scrutiny, and which have been shown to trigger <a href="https://www.amazon.com/Whistling-Vivaldi-Stereotypes-Affect-Issues-ebook/dp/B004TM9NOO?ie=UTF8&btkr=1&ref_=dp-kindle-redirect">stereotype threat</a>, allow applicants to build on their own terms, using their own tools, and explain how they decided between trade-offs, and speak to the larger project management and design process. In building your team, this will allow you to gain insight into how well applicants will be able to negotiate ambiguity and collaborate with their team members and other departments. <a href="https://www.google.ca/about/careers/lifeatgoogle/hiringprocess/">Learn more >> </a></p>
                 </li>
                 <li>
                   <a href="https://github.com/jaxx2104/mt-dataapi-php">
-                    mt-dataapi-php
+                    Feedback
                   </a>
+                  <p>Provide applicants with an opportunity to provide anonymous feedback on their experience. <a href="#">Learn more >> </a></p>
                 </li>
               </div>
             </div>
@@ -250,7 +235,7 @@ class Profile extends React.Component {
         <section id="features">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6">
+              <div className="col-md-9">
                 <img
                   src={pathPrefix + '/img/work3.png'}
                   className="img-rounded img-responsive"
@@ -258,7 +243,7 @@ class Profile extends React.Component {
                   alt=""
                 />
               </div>
-              <div className="col-md-6 text-center align-middle">
+              <div className="col-md-9 text-center align-middle">
                 <h2 className="section-heading">Degree Works</h2>
                 <p>
                   過去の制作は<a href="https://old.jaxx2104.info/">こちら</a>
