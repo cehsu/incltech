@@ -187,19 +187,19 @@ class Profile extends React.Component {
                   <a className="text-white" href="https://github.com/jaxx2104/gatsby-starter-bootstrap">
                     Self-managed Teams
                   </a>
-                  <p>Support the growth of a permanent team of volunteers by remunerating time spent on D&I-promoting activites. <a href="http://projectinclude.org/implementing_culture?size=75-#use-a-team-to-build-culture">Learn more >> </a></p>
+                  <p>Support the growth of a permanent team of volunteers by remunerating time spent on D&I-promoting activites. <a className="text-white" href="http://projectinclude.org/implementing_culture?size=75-#use-a-team-to-build-culture">Learn more >> </a></p>
                 </li>
                 <li>
                   <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
                     Diversity Task Forces
                   </a>
-                  <p>Regularly convene leadership and members of under-represented groups to assess progress and identify opportunities for innovation and new initiatives. <a href="https://hbr.org/2016/07/why-diversity-programs-fail">Learn more >> </a></p>
+                  <p>Regularly convene leadership and members of under-represented groups to assess progress and identify opportunities for innovation and new initiatives. <a className="text-white" href="https://hbr.org/2016/07/why-diversity-programs-fail">Learn more >> </a></p>
                 </li>
                 <li>
                   <a className="text-white" href="https://github.com/jaxx2104/gulp-sample">
                     Diversity Manager
                   </a>
-                  <p>Hire a D&I lead to effectively marshall your dedicated D&I human and financial resources. <a href="https://www.techrepublic.com/article/does-your-company-need-a-chief-diversity-officer/">Learn more >> </a></p>
+                  <p>Hire a D&I lead to effectively marshall your dedicated D&I human and financial resources. <a className="text-white" href="https://www.techrepublic.com/article/does-your-company-need-a-chief-diversity-officer/">Learn more >> </a></p>
                 </li>
               </div>
             </div>
